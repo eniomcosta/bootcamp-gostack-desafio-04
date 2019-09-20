@@ -1,14 +1,9 @@
 import React, { Component } from "react";
+import PostList from "./PostList";
 
 class Content extends Component {
   render() {
-    return (
-      <section class="container column">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-      </section>
-    );
+    return <PostList />;
   }
 }
 
