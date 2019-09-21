@@ -8,7 +8,7 @@ class PostList extends Component {
         id: 1,
         author: {
           name: "Julio Alcantara",
-          avatar: "http://url-da-imagem.com/imagem.jpg"
+          avatar: "https://www.w3schools.com/howto/img_avatar.png"
         },
         date: "04 Jun 2019",
         content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
@@ -17,7 +17,7 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: "https://www.w3schools.com/howto/img_avatar2.png"
             },
             content: "Conteúdo do comentário"
           }
@@ -27,7 +27,7 @@ class PostList extends Component {
         id: 2,
         author: {
           name: "Gabriel Lisboa",
-          avatar: "http://url-da-imagem.com/imagem.jpg"
+          avatar: "https://www.w3schools.com/howto/img_avatar.png"
         },
         date: "05 Jun 2019",
         content: "Saaaaaai daiiiiiiiiii",
@@ -36,7 +36,7 @@ class PostList extends Component {
             id: 2,
             author: {
               name: "Clara Lisboa",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: "https://www.w3schools.com/howto/img_avatar2.png"
             },
             content: "Comentário qualquer, quero nem saber"
           },
@@ -44,7 +44,7 @@ class PostList extends Component {
             id: 3,
             author: {
               name: "Cézar Toledo",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: "https://www.w3schools.com/howto/img_avatar.png"
             },
             content: "Esse comentário não ta nem aqui"
           }
