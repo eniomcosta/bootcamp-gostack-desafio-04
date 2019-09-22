@@ -46,7 +46,7 @@ body {
   margin-top: 15px;
 }
 
-.postItem {
+.post-item {
   margin: 5px;
   background: white;
   width: 50%;
@@ -56,10 +56,10 @@ body {
   border-radius: 5px;
 }
 
-.postHeader {
+.post-header {
   display: flex;
-  margin: 30px;
-  padding: 0 10px;
+  padding: 20px 20px;
+  width: inherit;
 }
 
 .author {
@@ -68,9 +68,17 @@ body {
 }
 
 .avatar {
+  margin: 0 0.5em;
   height: 50px;
   width: 50px;
   border-radius: 50%;
+}
+
+.avatar-comment {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 0.5em;
 }
 
 .author-date {
@@ -79,7 +87,28 @@ body {
   justify-content: center;
   padding: 0 10px;
 }
+
 .date {
   color: gray;
   font-size: 12px;
+}
+
+.post-content {
+  margin: 10px 15px;
+  font-size: 16px;
+}
+
+.hr-comment {
+  border: 0.5px solid #cccccc;
+  margin: 3px 15px;
+}
+
+.comment-content {
+  background: #eeeeee;
+  padding: 0.5em;
+  border-radius: 5%;
+}
+
+.comment-text {
+  font-weight: normal;
 }
